@@ -1,0 +1,18 @@
+body {
+	text-align: center;
+	font-family: 'Arapey', serif;
+	font-size: 25px;
+	background-color: rgb(162, 232, 28);
+
+}
+
+h1 {
+	background-color: rgba(28, 28, 3, 0.7);
+	border-radius: 100px;
+	text-transform: uppercase;
+
+}
+
+img {
+	border-radius: 100px;
+}
