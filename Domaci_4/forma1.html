@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registracija</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="formastyle.css">
+	</head>
+
+	<body>
+
+		<div id="container">
+		<h1>Cenimo Vaše mišljenje</h1>
+
+		<form action="#">
+			<label for "ime i prezime">Ime i prezime</label>
+			<input type="text" name="ime i prezime"><br/>
+
+			<label for "grad">Grad</label>
+			<input type="text" name="grad"><br/>
+
+			<label for "mejl">Mejl</label>
+			<input type="email" name="mejl"><br/>
+
+			<label for "broj godina">Broj godina</label>
+			<input type="number" name="broj godina"><br/>
+
+			<label for "pol">Muški</label>
+			<input type="radio" name="pol" value="Muski"><br/>
+
+			<label for "pol">Ženski</label>
+			<input type="radio" name="pol" value="Zenski"><br>
+			
+			<p>Smatrate da je najbezbednija marka automobila:</p>
+			<select name="cars">
+				<option value="opel">Opel</option>
+				<option value="mercedes">Merceds</option>
+				<option value="audi">Audi</option>
+				<option value="volvo">Volvo</option>
+				<option value="vw">VW</option>
+				<option value="peugot">Peugot</option>
+			</select>
+			<!--Ovde sam imala malih problema sto se tice razdvajanja ova dva taga-->
+			<input type="submit" name="prosledi" value="Click me!" required>
+			<p>Hvala!</p>
+
+		</form>
+		</div>
+	</body>
+</html>
