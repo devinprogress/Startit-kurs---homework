@@ -1,0 +1,263 @@
+* {
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://a.slack-edge.com/4030/img/wired/nasa-header-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B3B6B7;
+}
+
+
+nav {
+	position: absolute;
+	top: initial;
+	width: 100%;
+	height: 70px;
+	
+}
+
+nav .logo {
+	background-image: url("https://www.gv.com/img/companies/slack.png") left top;
+	background-repeat: no-repeat;
+	background-size: 106px 60px;
+	height: 30px;
+	width: 106px;
+	float: left;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	text-align: right;
+
+}
+
+nav ul a {
+	
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 700;
+	margin-left: 9px;
+	cursor: pointer;
+	line-height: 1em;
+	position:relative;
+	padding: 8px 7px 9px;
+	border-radius: 5px;
+	opacity: 0.8; 
+}
+
+.signup_c {
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+	box-shadow: inset 0 0 2.125rem rgba(0, 0, 0, 0.2);
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.no_padding {
+	padding: 0 !important
+}
+
+#story {
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+	color: #fff;
+	font-size: 1.59rem;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+	padding: 4.25rem 0;
+	position: relative;
+}
+#cta_story_header {
+	margin-bottom: 0;
+	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.4));
+	width: 760px;
+	font-size: 3.61rem;
+	line-height: 4.46rem;
+	font-weight: 900;
+	text-align: center;
+	margin: 0 auto 2.65rem;
+	display: block;
+	position: relative;
+}
+
+.hide_from_all {
+	visibility: hidden;
+}
+
+.underline_path {
+	position: absolute;
+	top: 2.23ex;
+	left: 0;
+	width: 100%;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+}
+
+.cta_story_header_first {
+	display: inline-block;
+	white-space: nowrap;
+	font-size: 3.61rem;
+	line-height: 4.46rem;
+	font-weight: 900;
+	text-align: center;
+}
+
+.no_wrap {
+	white-space: nowrap;
+}
+
+.cta_story_header_second {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.underline_robots, 
+.underlines_mars {
+	font-style: oblique;
+	position: relative;
+	line-height: 0;
+}
+
+.cta_container {
+	padding-top: 0
+}
+
+.cta_subheader {
+	display: block;
+	font-size: 1.38rem;
+	line-height: 1.75rem;
+	margin: 40px auto 22px;
+	max-width: 869px;
+	padding: 0;
+	width: 100%;
+}
+
+.cta {
+	padding: 19px 48px;
+	background: rgba(174, 180, 180, 0.5);
+	display: inline-block;
+	border-radius: 8px;
+}
+
+.cta_form {
+	display: inline-block;
+}
+
+.cta_footer {
+	font-size: 0.9375rem;
+	line-height: 1.375rem;
+	display: block;
+	text-align: center;
+	margin: 19px 0 0;
+	width: 100%;
+}
+
+#story_location {
+	font-size: 0.85rem;
+	line-height: 1.16rem;
+	position: absolute;
+	bottom: 1.06rem;
+	right: 1.59rem;
+	text-align: left;
+	padding: 0;
+}
+
+footer {
+	position: relative;
+	margin-top: 25px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	padding: 40px 0 0;
+	color: #9E9EA6;
+}
+
+footer.footer_dark {
+	background-color: transparent;
+	border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+footer section {
+	clear: both;
+	box-sizing: border-box;
+	max-width: 1014px;
+	padding: 0 1.5rem !important;
+	margin: 0 auto;
+}
+
+footer section.grid,
+section {
+	width: 100%;
+}
+
+.col {
+	display: block;
+	float: left;
+	margin: 0 0 2%;
+	padding-right: 2%;
+}
+
+.span_1_of_4 {
+	width: 23.8%;
+}
+
+footer .footer_dark .cat_1,
+footer .footer_dark .cat_2,
+footer .footer_dark .cat_3,
+footer .footer_dark .cat_4 {
+	color: #fff;
+}
+
+footer ul .cat_1, 
+footer ul .cat_2,
+footer ul .cat_3, 
+footer ul .cat_4 {
+	text-transform: uppercase;
+	font-size: 0.6875rem;
+	font-weight: 700;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer {
+	color: #9E9EA6;
+}
+
+footer .footnote ul li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 0.7rem;
+	float: right;
+	line-height: 3.125rem;
+}
+
+
+
